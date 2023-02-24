@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "name": "Hell Connect: Demo App",
+    "slug": "hell-connect-demo-app",
+    "description": "Test App",
+    "version": "1.0.19",
+    "privacy": "public",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/icon.png",
+    "splash": {
+      "image": "./app/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
