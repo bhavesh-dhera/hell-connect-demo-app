@@ -16,9 +16,20 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hell.hellconnect.testapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df5a56f0-128e-461d-a6c5-96a825bbd640"
+      }
+    },
+    "android": {
+      "package": "com.hell.hellconnect.testapp"
     }
   }
 }
